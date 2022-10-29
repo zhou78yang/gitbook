@@ -1,0 +1,24 @@
+{
+	"author" : "yangchi",
+	"language" : "zh-hans",
+	"styles": {
+		"website": "style.css"
+	},
+	"plugins": [
+		"expandable-chapters", "chapter-fold", "splitter",
+		"back-to-top-button",
+		"highlight",
+		"alerts",
+		"flexible-alerts@1.0.3",
+		"page-toc-button",
+		"hide-element"
+	],
+	"pluginsConfig": {
+		"hide-element": {
+			"elements": [
+				".gitbook-link",
+				".treeview__container-title"
+			]
+		}
+	}
+}
