@@ -9,6 +9,23 @@
 ## Python
 
 ## 后端
+- MySQL
+    - [MySQL架构](./backend/mysql/mysql架构.md) MySQL服务器架构和存储引擎
+	- [JSON数据类型](./backend/mysql/json.md)
+	- [容器部署方案](./backend/mysql/docker.md)
+	- 使用
+	    - [MySQL服务密码找回](./backend/mysql/usage/mysql-forgot-password.md)
+	    - [MySQL 5.7 用户添加及授权操作](./backend/mysql/usage/mysql-grant.md)
+	- [隔离级别](./backend/mysql/隔离级别/隔离级别.md)
+	    - [幻读](./backend/mysql/隔离级别/幻读.md)
+	    - 测试
+	        - [读未提交/脏读](./backend/mysql/隔离级别/脏读test.md)
+            - [读已提交/不可重复读](./backend/mysql/隔离级别/不可重复读test.md)
+            - [可重复读/幻读](./backend/mysql/隔离级别/幻读test.md)
+    - [并发控制](./backend/mysql/并发控制.md)
+    - [复制](./backend/mysql/复制.md)
+    - 优化
+    	- [InnoDB分页优化](./backend/mysql/优化/innodb分页优化.md)
 - Redis
     - [redis基础](./backend/redis/碎片.md)
     - [redis分布式锁](./backend/redis/redis-lock.md)
@@ -22,9 +39,7 @@
     - [pika](./backend/rabbitmq/pika.md) 
     - [rabbitmqctl](./backend/rabbitmq/rabbitmqctl.md)
     - [拓展资料](./backend/rabbitmq/资料汇总.md)
-- 数据库同步
-	- [amazonriver](./backend/amazonriver.md)
-	- [canal](./backend/canal.md)
+
 
 ## 软件工程
 - 工程
@@ -38,3 +53,4 @@
 - [网络](./network/network.md)
 
 ## 其他
+- [WSL](./windows/wsl.md) WSL, Windows Subsystem Linux

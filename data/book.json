@@ -1,9 +1,6 @@
 {
 	"author" : "yangchi",
 	"language" : "zh-hans",
-	"styles": {
-		"website": "style.css"
-	},
 	"plugins": [
 		"expandable-chapters", "chapter-fold", "splitter",
 		"back-to-top-button",
