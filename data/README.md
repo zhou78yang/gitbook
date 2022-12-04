@@ -93,7 +93,9 @@
 - nginx 是一个HTTP和反向代理服务器、邮件代理服务器和通用TCP/UDP代理服务器
   - [Nginx配置](./backend/nginx.md)
 - [supervisor](./backend/supervisor.md) 一个基于C/S结构的进程管理工具
-- [Kibana](./backend/kibana.md) 是Elastic Stack中的可视化工具
+- [Elastic Stack](https://www.elastic.co/guide/en/elastic-stack/current/overview.html) 是一个开源的技术栈，能够将系统、网络、应用系统日志等各种日志及相关数据进行收集、过滤、转换、然后进行集中存放并可用于实时检索、分析和展示。
+  - [Kibana](./backend/elk/kibana.md) 是Elastic Stack中的可视化工具
+  - [Beats](./backend/elk/beats.md) 数据收集器系统
 - [阿里云OSS](./backend/oss.md)
   - [OSS Web应用开发](./backend/oss-web.md)
 - [钉钉工作通知对接](./backend/dingtalk.md)
@@ -124,3 +126,14 @@
 
 ## 其他
 - [WSL](./windows/wsl.md) WSL, Windows Subsystem Linux
+- [git](./tools/git.md)
+  - [gitignore](./tools/gitignore.md)
+  - [自建git服务器](./tools/git-server.md)
+- [gitbook](./tools/gitbook.md)
+- [树莓派](./respberry-pi/respberry-pi.md)
+  - [aarch64架构的软件问题汇总](./respberry-pi/aarch64.md)
+- [NextCloud](./tools/nextcloud.md) 一款开源免费的私有云存储网盘项目,可以让你快速便捷地搭建一套属于自己或团队的云同步网盘
+- [shadowsocks](./tools/shadowsocks.md) Shadowsocks服务端和客户端搭建教程
+- [gost](./tools/gost.md) GOST是GO语言实现的安全隧道
+- [v2ray](./tools/v2ray.md) 
+- [画图工具](./tools/graph.md) 画图工具
