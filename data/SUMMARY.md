@@ -10,6 +10,53 @@
   - [json](./go/std/json.md)
 
 ## Python
+* Django
+    * Model
+        - [Django模型继承](./python/django/model/inherit.md) 
+    * [缓存](./python/django/cache/cache.md)
+        - [django-redis](./python/django/cache/django-redis.md)
+        - [Django使用RedisCluster做缓存](./python/django/cache/redis-cluster.md)
+    * 查询
+        - [分组](./python/django/query/annotate.md) 
+        - [聚合](./python/django/query/aggregate-expressions.md)
+    * [中间件](./python/django/middleware.md)
+    * [信号Signal](./python/django/signal.md) Django内置的一种解耦方式
+    * [Channel](./python/django/django_channels/base.md) Django提供的websocket框架
+    * [资料](./python/django/resource.md) Django的一些拓展资料整理
+* [Django-Rest-Framework](./python/django/django_rest_framework/base.md)
+    - [APIView](./python/django/django_rest_framework/views.md)
+    - [ViewSet](./python/django/django_rest_framework/viewset.md)
+    - [认证和权限](./python/django/django_rest_framework/auth.md)
+    - [搜索](./python/django/django_rest_framework/search.md)
+* Flask
+    - [快速上手](./python/flask/base.md)
+* 语言
+    - [装饰器](./python/decorator.md)
+    - [typing](./python/typing.md)
+    - [dataclass](./python/dataclass.md)
+    - [inspect](./python/inspect.md)
+    - [python重定向输出延迟问题](./python/solutions/python-stdout-redirect.md)
+* [env环境](./python/env.md) 常用env工具
+* [pipenv](./python/pipenv.md)
+* 网络协议及网络数据处理
+    - [requests](./python/requests.md) http网络请求
+    - [suds/suds-py3](./python/suds.md) WebService请求
+    - [email](./python/email/email.md) 邮件基本概念及email发送
+    - [常用的email客户端](./python/email/常用的email客户端.md)
+    - [socket](./python/socket.md) socket简介
+* 数据处理
+    - [json](./python/json.md) JSON编码和解码器
+    - [xmltodict](./python/xmltodict.md) xml与dict转换方法，常用`parse`和`unparse`
+    - [PDF处理](./python/pdf.md) pdf处理: reportlab, pdfminer, pdfkit
+    - [excel处理](./python/excel.md) excel文件处理
+* [keyring](./python/keyring.md) 访问系统keyring(钥匙串)服务的第三方包，方便存储秘钥
+* Scrapy
+    - [快速上手](./python/scrapy/start.md)
+    - [基础知识](./python/scrapy/基础知识.md)
+* 测试
+    - [doctest](./python/test/doctest.md)
+* cookbook
+    - [单例模式](./python/singleton.md)
 
 ## 后端
 - MySQL

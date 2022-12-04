@@ -1,0 +1,3 @@
+# Serializer
+
+Serializer是DRF中用来对Python对象和JSON进行序列化和反序列化的组件，类似Django中的Form和ModelForm。
