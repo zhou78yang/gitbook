@@ -81,14 +81,25 @@
     - [redis分布式锁](./backend/redis/redis-lock.md)
     - [资料汇总](./backend/redis/redis复习.md)
 - RabbitMQ
-    - [安装和管理](./backend/rabbitmq/install.md) docker部署，管理页面，API接口
-    - [快速上手](./backend/rabbitmq/tutorial.md)
-    - [死信和延迟队列](./backend/rabbitmq/dead-letter.md)
-    - [消息和队列的失效时间](./backend/rabbitmq/ttl.md)
-    - [心跳检测](./backend/rabbitmq/heartbeat.md)
-    - [pika](./backend/rabbitmq/pika.md) 
-    - [rabbitmqctl](./backend/rabbitmq/rabbitmqctl.md)
-    - [拓展资料](./backend/rabbitmq/资料汇总.md)
+  - [安装和管理](./backend/rabbitmq/install.md) docker部署，管理页面，API接口
+  - [快速上手](./backend/rabbitmq/tutorial.md)
+  - [死信和延迟队列](./backend/rabbitmq/dead-letter.md)
+  - [消息和队列的失效时间](./backend/rabbitmq/ttl.md)
+  - [心跳检测](./backend/rabbitmq/heartbeat.md)
+  - [pika](./backend/rabbitmq/pika.md) 
+  - [rabbitmqctl](./backend/rabbitmq/rabbitmqctl.md)
+  - [拓展资料](./backend/rabbitmq/资料汇总.md)
+- Linux
+  - [服务器性能指标](./backend/linux/load.md)
+- [Apollo](./backend/apollo.md) 是一款可靠的分布式配置管理中心。
+- [Jenkins](./backend/jenkins.md) 是一个开源自动化服务器，可用于自动化与构建、测试、交付或部署软件相关的所有任务。
+- nginx 是一个HTTP和反向代理服务器、邮件代理服务器和通用TCP/UDP代理服务器
+  - [Nginx配置](./backend/nginx.md)
+- [supervisor](./backend/supervisor.md) 一个基于C/S结构的进程管理工具
+- [Kibana](./backend/kibana.md) 是Elastic Stack中的可视化工具
+- [阿里云OSS](./backend/oss.md)
+  - [OSS Web应用开发](./backend/oss-web.md)
+- [钉钉工作通知对接](./backend/dingtalk.md)
 
 
 ## 软件工程
