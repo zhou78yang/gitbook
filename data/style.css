@@ -28,4 +28,7 @@
     .treeview__container .level__item {
         display: none;
     }
+    .treeview__container-title {
+        display: none;
+    }
 }
