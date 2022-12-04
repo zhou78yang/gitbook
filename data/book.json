@@ -2,14 +2,18 @@
 	"author" : "yangchi",
 	"language" : "zh-hans",
 	"plugins": [
+		"-lunr", "-search", "search-pro",
 		"expandable-chapters", "chapter-fold", "splitter",
 		"back-to-top-button",
 		"highlight",
 		"alerts",
 		"flexible-alerts@1.0.3",
-		"page-toc-button",
+		"page-treeview",
 		"hide-element"
 	],
+	"styles": {
+		"website": "style.css"
+	},
 	"pluginsConfig": {
 		"hide-element": {
 			"elements": [

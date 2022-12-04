@@ -93,7 +93,7 @@
   - [服务器性能指标](./backend/linux/load.md)
 - [Apollo](./backend/apollo.md) 是一款可靠的分布式配置管理中心。
 - [Jenkins](./backend/jenkins.md) 是一个开源自动化服务器，可用于自动化与构建、测试、交付或部署软件相关的所有任务。
-- nginx 是一个HTTP和反向代理服务器、邮件代理服务器和通用TCP/UDP代理服务器
+- [nginx]() 是一个HTTP和反向代理服务器、邮件代理服务器和通用TCP/UDP代理服务器
   - [Nginx配置](./backend/nginx.md)
 - [supervisor](./backend/supervisor.md) 一个基于C/S结构的进程管理工具
 - [Elastic Stack](https://www.elastic.co/guide/en/elastic-stack/current/overview.html) 是一个开源的技术栈，能够将系统、网络、应用系统日志等各种日志及相关数据进行收集、过滤、转换、然后进行集中存放并可用于实时检索、分析和展示。

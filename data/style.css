@@ -1,0 +1,31 @@
+@media only screen and (max-width:1079px) {
+    .treeview__container {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1080px) {
+    .treeview__container {
+        margin-left: auto;
+        margin-right: auto;
+        left: calc(100%);
+        position: absolute;
+        width: calc(100%);
+    }
+    .treeview__container a {
+        color: var(--fg) !important;
+        display: block;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 10px;
+        text-align: left;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+    .treeview__container li {
+        list-style-type:none;
+    }
+    .treeview__container .level__item {
+        display: none;
+    }
+}

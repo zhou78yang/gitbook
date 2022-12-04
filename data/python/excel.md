@@ -65,7 +65,7 @@ AA
 ### xlutils
 文档地址: https://xlutils.readthedocs.io/en/latest/index.html 			
 
-##### xlutils.copy： 将一个`xlrd.Book`对象转换为`xlwt.Workbook`对象
+#### xlutils.copy： 将一个`xlrd.Book`对象转换为`xlwt.Workbook`对象
 相关文档: 
 ```python
 >>> from os.path import join
@@ -80,7 +80,7 @@ AA
 
 ```
 
-##### xlutils.styles: 处理`xlrd`中样式的工具 				
+#### xlutils.styles: 处理`xlrd`中样式的工具 				
 相关文档: https://xlutils.readthedocs.io/en/latest/styles.html
 ```python
 # 读取文件，注意formatting_info=True
