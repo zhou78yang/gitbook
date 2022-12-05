@@ -1,6 +1,6 @@
 # 空结构体
 
-## 特性
+## 空结构体具有相同的地址
 参考：https://go.dev/ref/spec#Size_and_alignment_guarantees
 > A struct or array type has size zero if it contains no fields (or elements, respectively) that have a size greater than zero. 
 > Two distinct zero-size variables may have the same address in memory.

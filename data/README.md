@@ -3,6 +3,7 @@
 ## Go
 - Go语言基础
   - [Go快速入门](./go/go快速入门.md)
+  - [常量和iota](./go/lang/const_and_iota.md)
   - [空结构体](./go/lang/empty_struct.md)
   - [json](./go/std/json.md)
 
